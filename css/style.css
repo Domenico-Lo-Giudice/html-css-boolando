@@ -1,0 +1,33 @@
+ .header {
+     display: flex;
+     align-items: center;
+     min-height: 80px;
+     padding: 10px 0;
+     background-color: orange;
+ }
+
+ .header-nav {
+     display: flex;
+     flex-grow: 1;
+     line-height: 30px;
+ }
+
+ .header-nav>* {
+     flex-basis: 20%;
+     padding: 5px 10px; 
+     
+ }
+
+ .header-links {
+     flex-grow: 1;
+     text-align: center;
+ }
+
+ ul li {
+    display: inline-block;
+ }
+
+ a {
+    text-decoration: none;
+    color: white;
+ }
