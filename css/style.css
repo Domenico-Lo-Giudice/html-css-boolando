@@ -1,9 +1,10 @@
  .header {
      display: flex;
      align-items: center;
-     min-height: 80px;
+     height: 50px;
      padding: 10px 0;
      background-color: orange;
+    
  }
 
  .header-nav {
@@ -13,12 +14,13 @@
  }
 
  .header-nav>* {
-     flex-basis: 20%;
+     flex-basis: 15%;
      padding: 5px 10px; 
+     
      
  }
 
- .header-links {
+ .header-logo {
      flex-grow: 1;
      text-align: center;
  }
@@ -30,4 +32,21 @@
  a {
     text-decoration: none;
     color: white;
+ }
+
+ .logo {
+    height: 30px;
+    text-align: center;
+ }
+
+ .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 30px;
+    row-gap: 5rem;
+ }
+
+ .col {
+    width: 30%;
  }
