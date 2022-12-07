@@ -3,7 +3,8 @@
      align-items: center;
      height: 50px;
      padding: 10px 0;
-     background-color: orange;
+     background-color: orangered;
+     margin-bottom: 3rem;
     
  }
 
@@ -27,7 +28,10 @@
 
  ul li {
     display: inline-block;
+    padding-right: 4px;
  }
+
+
 
  a {
     text-decoration: none;
@@ -49,4 +53,34 @@
 
  .col {
     width: 30%;
+    position: relative;
  }
+
+ .discount-badge {
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    background-color: red;
+    color: white;
+    padding: 5px 8px;
+ }
+
+ .sustainability {
+    position: absolute;
+    left: 15%;
+    bottom: 10%;
+    background-color: green;
+    color: white;
+    padding: 5px 8px;
+ }
+
+ .left-sustainability {
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    background-color: green;
+    color: white;
+    padding: 5px 8px;
+ }
+
+ 
