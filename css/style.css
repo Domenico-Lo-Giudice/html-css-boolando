@@ -107,15 +107,15 @@
  }
 
 
-  .third-image {
+.third-image {
      
-      background-image: url(/img/3.webp);
-      background-size: cover;
-  }
+    background-image: url(/img/3.webp);
+    background-size: cover;
+}
 
-  .third-image:hover {
-      background-image: url(/img/3b.webp);
-  }
+.third-image:hover {
+     background-image: url(/img/3b.webp);
+}
  
 
 .fourth-image {
