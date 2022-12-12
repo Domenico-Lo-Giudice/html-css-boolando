@@ -5,7 +5,7 @@
      padding: 10px 0;
      background-color: orangered;
      margin-bottom: 3rem;
-    
+     box-shadow: 0 1px 0 black; 
  }
 
  .header-nav {
@@ -179,4 +179,31 @@
 
 .heart:hover {
     color: red;
+}
+
+.main-footer {
+    margin-top: 200px;
+    background-color: #1A1A1A;
+    color: white;
+    
+    
+}
+
+.main-footer > .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.legal {
+    padding-top: 5px;
+}
+
+.info {
+    padding-top: 5px;
+}
+
+.legal > * {
+    padding-right: 10px;
 }
